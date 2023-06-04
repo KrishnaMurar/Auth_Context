@@ -7,6 +7,7 @@ const Home = (props) => {
   return (
     <Card className={classes.home}>
       <h1>Welcome to my Page! Now, Go Back !</h1>
+      <button onClick ={props.onLogout}>Log Out</button>
     </Card>
   );
 };
